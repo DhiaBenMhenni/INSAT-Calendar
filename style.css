@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: rgb(25, 10, 112)   ;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#08f5c9,#49def5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.background{
+    background: white; 
+    min-height: 60vh;
+    width: 70%; 
+    background: linear-gradient(
+       to right bottom,
+     rgba(255,255,255,0.7),
+     rgba(255,255,255,0.5));
+    border-radius: 2rem;
+}
+.main-thing{
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 60vw;    
+    padding: 1.3rem;
+}
+.coming-soon{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 60vw;
+
+}
+.day, .minute, .hour, .second{
+    font-size: 2.8rem;
+
+}
+.INSAT{
+    height: 269px;
+    width: 266px;
+    padding: 1.5rem;
+}
+.slogan{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    width: 50vw;
+    padding-bottom: 30px;
+    color: #426696;
+}
